@@ -1,6 +1,6 @@
 'use client'
-
-import { useEffect, useState } from 'react'
+import React from 'react'
+import { useEffect } from 'react'
 import { useCustomer } from '@/providers/customer-provider'
 import { getOverview } from '@/db/overview'
 

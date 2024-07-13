@@ -5,7 +5,6 @@ import { useCustomer } from '@/providers/customer-provider'
 import { getOverview } from '@/db/overview'
 
 export default function PageFrame() {
-  const [overview, setOverview] = useState({})
   const { subdomain } = useCustomer()
 
   useEffect(() => {
